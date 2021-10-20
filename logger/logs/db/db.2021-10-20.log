@@ -1,0 +1,16 @@
+[2021-10-20T17:46:45.075] [INFO] db - sql Executing (default): SELECT 1+1 AS result
+[2021-10-20T17:48:37.797] [INFO] db - sql Executing (default): SELECT 1+1 AS result
+[2021-10-20T18:03:51.914] [INFO] db - sql Executing (default): DROP TABLE IF EXISTS `lc_users`;
+[2021-10-20T18:03:51.969] [INFO] db - sql Executing (default): CREATE TABLE IF NOT EXISTS `lc_users` (`id` INTEGER NOT NULL auto_increment , `username` VARCHAR(255) NOT NULL UNIQUE COMMENT '用户名', `password` CHAR(64) NOT NULL COMMENT '用户密码', `is_admin` TINYINT(1) NOT NULL DEFAULT 0 COMMENT '是否为管理员（0：不是管理员(默认) ， 1：是管理员）', `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+[2021-10-20T18:03:53.717] [INFO] db - sql Executing (default): SHOW INDEX FROM `lc_users`
+[2021-10-20T18:05:59.152] [INFO] db - sql Executing (default): DROP TABLE IF EXISTS `lc_users`;
+[2021-10-20T18:05:59.651] [INFO] db - sql Executing (default): CREATE TABLE IF NOT EXISTS `lc_users` (`id` INTEGER NOT NULL auto_increment , `username` VARCHAR(255) NOT NULL UNIQUE COMMENT '用户名', `password` CHAR(64) NOT NULL COMMENT '用户密码', `is_admin` TINYINT(1) NOT NULL DEFAULT 0 COMMENT '是否为管理员（0：不是管理员(默认) ， 1：是管理员）', PRIMARY KEY (`id`)) ENGINE=InnoDB;
+[2021-10-20T18:06:00.999] [INFO] db - sql Executing (default): SHOW INDEX FROM `lc_users`
+[2021-10-20T18:07:39.011] [INFO] db - sql Executing (default): DROP TABLE IF EXISTS `lc_user`;
+[2021-10-20T18:07:39.039] [INFO] db - sql Executing (default): DROP TABLE IF EXISTS `lc_user`;
+[2021-10-20T18:07:39.052] [INFO] db - sql Executing (default): CREATE TABLE IF NOT EXISTS `lc_user` (`id` INTEGER NOT NULL auto_increment , `username` VARCHAR(255) NOT NULL UNIQUE COMMENT '用户名', `password` CHAR(64) NOT NULL COMMENT '用户密码', `is_admin` TINYINT(1) NOT NULL DEFAULT 0 COMMENT '是否为管理员（0：不是管理员(默认) ， 1：是管理员）', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+[2021-10-20T18:07:40.478] [INFO] db - sql Executing (default): SHOW INDEX FROM `lc_user`
+[2021-10-20T18:07:59.433] [INFO] db - sql Executing (default): DROP TABLE IF EXISTS `lc_user`;
+[2021-10-20T18:07:59.454] [INFO] db - sql Executing (default): DROP TABLE IF EXISTS `lc_user`;
+[2021-10-20T18:07:59.468] [INFO] db - sql Executing (default): CREATE TABLE IF NOT EXISTS `lc_user` (`id` INTEGER NOT NULL auto_increment , `username` VARCHAR(255) NOT NULL UNIQUE COMMENT '用户名', `password` CHAR(64) NOT NULL COMMENT '用户密码', `is_admin` TINYINT(1) NOT NULL DEFAULT 0 COMMENT '是否为管理员（0：不是管理员(默认) ， 1：是管理员）', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+[2021-10-20T18:08:00.831] [INFO] db - sql Executing (default): SHOW INDEX FROM `lc_user`
