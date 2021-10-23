@@ -32,9 +32,9 @@ const sequelize = new Sequelize(dbName, user, password, {
   }
 });
 
-sequelize.sync({
-  force:true
-})
+// sequelize.sync({
+//   force:true
+// })
 
 // sequelize.authenticate().then(() => {
 //   console.log('连接成功');

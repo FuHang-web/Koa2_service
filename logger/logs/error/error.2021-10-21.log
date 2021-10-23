@@ -1,0 +1,1269 @@
+[2021-10-21T15:25:37.869] [ERROR] error - ReferenceError: a is not defined
+    at logins (E:\MyProject\Node\koa2_service\app\controller\user.js:27:16)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\AccessLogMiddleware.js:11:10)
+[2021-10-21T15:26:24.505] [ERROR] error - ReferenceError: a is not defined
+    at logins (E:\MyProject\Node\koa2_service\app\controller\user.js:27:16)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\AccessLogMiddleware.js:11:10)
+[2021-10-21T15:26:31.199] [ERROR] error - ReferenceError: a is not defined
+    at logins (E:\MyProject\Node\koa2_service\app\controller\user.js:27:16)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\AccessLogMiddleware.js:11:10)
+[2021-10-21T15:26:36.495] [ERROR] error - ReferenceError: a is not defined
+    at logins (E:\MyProject\Node\koa2_service\app\controller\user.js:27:16)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\AccessLogMiddleware.js:11:10)
+[2021-10-21T15:33:46.206] [ERROR] error - ReferenceError: a is not defined
+    at logins (E:\MyProject\Node\koa2_service\app\controller\user.js:27:16)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\AccessLogMiddleware.js:11:10)
+[2021-10-21T15:33:56.021] [ERROR] error - ReferenceError: a is not defined
+    at logins (E:\MyProject\Node\koa2_service\app\controller\user.js:27:16)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\AccessLogMiddleware.js:11:10)
+[2021-10-21T15:34:49.821] [ERROR] error - ReferenceError: a is not defined
+    at logins (E:\MyProject\Node\koa2_service\app\controller\user.js:27:16)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\AccessLogMiddleware.js:11:10)
+[2021-10-21T15:44:40.991] [ERROR] error - ValidationError [SequelizeValidationError]: notNull Violation: lc_user.username cannot be null
+    at InstanceValidator._validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:3901:7)
+    at async Function.create (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:2218:12)
+    at async createUser (E:\MyProject\Node\koa2_service\app\service\user.js:5:17)
+    at async register (E:\MyProject\Node\koa2_service\app\controller\user.js:14:17) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username cannot be null',
+      type: 'notNull Violation',
+      path: 'username',
+      value: null,
+      origin: 'CORE',
+      instance: [lc_user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+[2021-10-21T15:44:55.616] [ERROR] error - ValidationError [SequelizeValidationError]: notNull Violation: lc_user.username cannot be null
+    at InstanceValidator._validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:3901:7)
+    at async Function.create (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:2218:12)
+    at async createUser (E:\MyProject\Node\koa2_service\app\service\user.js:5:17)
+    at async register (E:\MyProject\Node\koa2_service\app\controller\user.js:14:17) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username cannot be null',
+      type: 'notNull Violation',
+      path: 'username',
+      value: null,
+      origin: 'CORE',
+      instance: [lc_user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+[2021-10-21T15:46:24.496] [ERROR] error - ValidationError [SequelizeValidationError]: notNull Violation: lc_user.username cannot be null
+    at InstanceValidator._validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:3901:7)
+    at async Function.create (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:2218:12)
+    at async createUser (E:\MyProject\Node\koa2_service\app\service\user.js:5:17)
+    at async register (E:\MyProject\Node\koa2_service\app\controller\user.js:14:17) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username cannot be null',
+      type: 'notNull Violation',
+      path: 'username',
+      value: null,
+      origin: 'CORE',
+      instance: [lc_user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+[2021-10-21T15:47:57.366] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 15:47:57',
+      '2021-10-21 15:47:57'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 15:47:57',
+      '2021-10-21 15:47:57'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T15:50:36.157] [ERROR] error - ValidationError [SequelizeValidationError]: notNull Violation: lc_user.username cannot be null,
+notNull Violation: lc_user.password cannot be null
+    at InstanceValidator._validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:3901:7)
+    at async Function.create (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:2218:12)
+    at async createUser (E:\MyProject\Node\koa2_service\app\service\user.js:5:17)
+    at async register (E:\MyProject\Node\koa2_service\app\controller\user.js:14:31) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username cannot be null',
+      type: 'notNull Violation',
+      path: 'username',
+      value: null,
+      origin: 'CORE',
+      instance: [lc_user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    },
+    ValidationErrorItem {
+      message: 'lc_user.password cannot be null',
+      type: 'notNull Violation',
+      path: 'password',
+      value: null,
+      origin: 'CORE',
+      instance: [lc_user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+[2021-10-21T15:51:14.225] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan1',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan1' },
+  parent: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:14',
+      '2021-10-21 15:51:14'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:14',
+      '2021-10-21 15:51:14'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T15:51:31.190] [ERROR] error - ValidationError [SequelizeValidationError]: notNull Violation: lc_user.username cannot be null,
+notNull Violation: lc_user.password cannot be null
+    at InstanceValidator._validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:3901:7)
+    at async Function.create (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\model.js:2218:12)
+    at async createUser (E:\MyProject\Node\koa2_service\app\service\user.js:5:17)
+    at async register (E:\MyProject\Node\koa2_service\app\controller\user.js:14:31) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username cannot be null',
+      type: 'notNull Violation',
+      path: 'username',
+      value: null,
+      origin: 'CORE',
+      instance: [lc_user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    },
+    ValidationErrorItem {
+      message: 'lc_user.password cannot be null',
+      type: 'notNull Violation',
+      path: 'password',
+      value: null,
+      origin: 'CORE',
+      instance: [lc_user],
+      validatorKey: 'is_null',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ]
+}
+[2021-10-21T15:51:33.980] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan1',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan1' },
+  parent: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:33',
+      '2021-10-21 15:51:33'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:33',
+      '2021-10-21 15:51:33'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T15:51:34.719] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan1',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan1' },
+  parent: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:34',
+      '2021-10-21 15:51:34'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:34',
+      '2021-10-21 15:51:34'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T15:51:42.262] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan1',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan1' },
+  parent: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:42',
+      '2021-10-21 15:51:42'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan1' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan1' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan1',
+      'Aa123456',
+      false,
+      '2021-10-21 15:51:42',
+      '2021-10-21 15:51:42'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T16:07:07.929] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 16:07:07',
+      '2021-10-21 16:07:07'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 16:07:07',
+      '2021-10-21 16:07:07'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T16:07:10.232] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 16:07:10',
+      '2021-10-21 16:07:10'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 16:07:10',
+      '2021-10-21 16:07:10'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T16:12:14.833] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 16:12:14',
+      '2021-10-21 16:12:14'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 16:12:14',
+      '2021-10-21 16:12:14'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T17:00:29.840] [ERROR] error - TypeError: Joi.validate is not a function
+    at userValidate (E:\MyProject\Node\koa2_service\middleware\ValidateMiddleware.js:12:14)
+    at register (E:\MyProject\Node\koa2_service\app\controller\user.js:16:22)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+[2021-10-21T17:18:51.819] [ERROR] error - TypeError: Cannot read property 'message' of undefined
+    at register (E:\MyProject\Node\koa2_service\app\controller\user.js:16:38)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\LoggerInfoMiddleware.js:11:10)
+[2021-10-21T17:27:23.715] [ERROR] error - ReferenceError: res is not defined
+    at userValidate (E:\MyProject\Node\koa2_service\middleware\ValidateMiddleware.js:19:3)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (E:\MyProject\Node\koa2_service\node_modules\koa-compose\index.js:42:32)
+    at AccessLogger (E:\MyProject\Node\koa2_service\middleware\LoggerInfoMiddleware.js:11:10)
+[2021-10-21T17:27:42.255] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 17:27:42',
+      '2021-10-21 17:27:42'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'Aa123456',
+      false,
+      '2021-10-21 17:27:42',
+      '2021-10-21 17:27:42'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T17:29:31.531] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456',
+      false,
+      '2021-10-21 17:29:31',
+      '2021-10-21 17:29:31'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456',
+      false,
+      '2021-10-21 17:29:31',
+      '2021-10-21 17:29:31'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T17:31:10.725] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'aa123456',
+      false,
+      '2021-10-21 17:31:10',
+      '2021-10-21 17:31:10'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      'aa123456',
+      false,
+      '2021-10-21 17:31:10',
+      '2021-10-21 17:31:10'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T17:37:21.918] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456zz',
+      false,
+      '2021-10-21 17:37:21',
+      '2021-10-21 17:37:21'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456zz',
+      false,
+      '2021-10-21 17:37:21',
+      '2021-10-21 17:37:21'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T17:54:06.908] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456aa',
+      false,
+      '2021-10-21 17:54:06',
+      '2021-10-21 17:54:06'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456aa',
+      false,
+      '2021-10-21 17:54:06',
+      '2021-10-21 17:54:06'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T17:54:12.226] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456aa',
+      false,
+      '2021-10-21 17:54:12',
+      '2021-10-21 17:54:12'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456aa',
+      false,
+      '2021-10-21 17:54:12',
+      '2021-10-21 17:54:12'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}
+[2021-10-21T17:55:30.970] [ERROR] error - UniqueConstraintError [SequelizeUniqueConstraintError]: Validation error
+    at Query.formatError (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:242:16)
+    at Query.run (E:\MyProject\Node\koa2_service\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: [
+    ValidationErrorItem {
+      message: 'lc_user.username must be unique',
+      type: 'unique violation',
+      path: 'lc_user.username',
+      value: 'zhangsan',
+      origin: 'DB',
+      instance: [lc_user],
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  fields: { 'lc_user.username': 'zhangsan' },
+  parent: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456aa',
+      false,
+      '2021-10-21 17:55:30',
+      '2021-10-21 17:55:30'
+    ]
+  },
+  original: Error: Duplicate entry 'zhangsan' for key 'lc_user.username'
+      at Packet.asError (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\MyProject\Node\koa2_service\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+      at readableAddChunk (_stream_readable.js:273:9)
+      at Socket.Readable.push (_stream_readable.js:214:10) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'zhangsan' for key 'lc_user.username'",
+    sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);',
+    parameters: [
+      'zhangsan',
+      '123456aa',
+      false,
+      '2021-10-21 17:55:30',
+      '2021-10-21 17:55:30'
+    ]
+  },
+  sql: 'INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);'
+}

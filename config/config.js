@@ -1,6 +1,7 @@
 const config = {
   app: {
-    port: process.env.APP_PORT
+    port: process.env.APP_PORT,
+    JWT_SECRET: process.env.JWT_SECRET
   },
   database: {
     dbName: process.env.DB_NAME,
@@ -11,6 +12,9 @@ const config = {
   },
   log: {
     appenders: {
+      console: {
+        type: 'console'
+      },
       info: {
         type: "dateFile",
         filename: 'logger/logs/info/info', // 您要写入日志文件的路径
@@ -39,7 +43,7 @@ const config = {
     },
     categories: {
       default: {
-        appenders: ['info'],
+        appenders: ['console'],
         level: 'info'
       },
       info: {
