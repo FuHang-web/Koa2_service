@@ -19,7 +19,11 @@ const sequelize = new Sequelize(dbName, user, password, {
   dialect: 'mysql',
   port: port,
   timezone: '+08:00',
-  logging: (msg) => dbLogger.info("sql", msg),
+  logging: (msg) => {
+    // console.log(msg);
+    dbLogger.info("sql", msg)
+  },
+  // logging:true,
   define: {
     //create_time  update_time delete_time
     timestamps: true,

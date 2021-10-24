@@ -1,0 +1,387 @@
+[2021-10-23T22:43:00.209] [ERROR] error - {
+  error: { code: '10001', msg: '密码必须包含字母、数字，且密码位数在8-32位之间', result: '' },
+  requestBody: {},
+  request: {
+    method: 'POST',
+    url: '/user/register',
+    header: {
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '7f4bc939-f994-4361-aa85-66e6e7c4c235',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '0'
+    }
+  },
+  response: {
+    status: 400,
+    message: 'Bad Request',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10001', msg: '密码必须包含字母、数字，且密码位数在8-32位之间', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/register'
+}
+[2021-10-23T22:43:57.915] [ERROR] error - {
+  error: { code: '10003', msg: '用户注册错误', result: '' },
+  requestBody: { username: 'admin', password: 'Aa123456' },
+  request: {
+    method: 'POST',
+    url: '/user/register',
+    header: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '1497ba20-f99e-4daa-ae74-31c8667ee42c',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '58'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10003', msg: '用户注册错误', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/register'
+}
+[2021-10-23T22:49:27.668] [ERROR] error - {
+  error: { code: '10102', msg: '无效的token', result: '' },
+  requestBody: { password: 'aa123456' },
+  request: {
+    method: 'PATCH',
+    url: '/user',
+    header: {
+      authorization: 'Bearer {{token}}',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': 'd3b5640b-c953-46d8-a703-ce97a95722cd',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '32'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10102', msg: '无效的token', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user'
+}
+[2021-10-23T22:51:32.317] [ERROR] error - {
+  error: { code: '10102', msg: '无效的token', result: '' },
+  requestBody: { password: 'aa123456' },
+  request: {
+    method: 'PATCH',
+    url: '/user',
+    header: {
+      authorization: 'Bearer {{token}}',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '270b48f1-1b30-4eaa-a5e6-334eb7499c75',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '32'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10102', msg: '无效的token', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user'
+}
+[2021-10-23T22:53:09.693] [ERROR] error - {
+  error: { code: '10102', msg: '无效的token', result: '' },
+  requestBody: { password: 'aa123456' },
+  request: {
+    method: 'PATCH',
+    url: '/user',
+    header: {
+      authorization: 'Bearer {{token}}',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '1480633f-0814-4a77-8b4c-e2fd537fe726',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '32'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10102', msg: '无效的token', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user'
+}
+[2021-10-23T22:53:56.857] [ERROR] error - {
+  error: { code: '10102', msg: '无效的token', result: '' },
+  requestBody: { password: 'aa123456' },
+  request: {
+    method: 'PATCH',
+    url: '/user',
+    header: {
+      authorization: 'Bearer {{token}}',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': 'cdd874f7-26a8-4b84-92ea-2b29d3782794',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '32'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10102', msg: '无效的token', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user'
+}
+[2021-10-23T22:54:12.725] [ERROR] error - {
+  error: { code: '10102', msg: '无效的token', result: '' },
+  requestBody: { password: 'aa123456' },
+  request: {
+    method: 'PATCH',
+    url: '/user',
+    header: {
+      authorization: 'Bearer {{token}}',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '01531e58-8918-4483-8826-3d5f392d3ddd',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '32'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10102', msg: '无效的token', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user'
+}
+[2021-10-23T22:54:34.771] [ERROR] error - {
+  error: { code: '10102', msg: '无效的token', result: '' },
+  requestBody: { username: 'admin1', password: 'aa123456' },
+  request: {
+    method: 'PATCH',
+    url: '/user',
+    header: {
+      authorization: 'Bearer {{token}}',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '72af3f6d-a716-4524-83dd-d81de988039e',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '59'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10102', msg: '无效的token', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user'
+}
+[2021-10-23T22:54:48.597] [ERROR] error - {
+  error: { code: '10102', msg: '无效的token', result: '' },
+  requestBody: { username: 'admin1', password: 'aa123456' },
+  request: {
+    method: 'PATCH',
+    url: '/user',
+    header: {
+      authorization: 'Bearer {{token}}',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': 'cc073318-3e8f-4697-b38e-09fbc4b2cb82',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '59'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10102', msg: '无效的token', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user'
+}
+[2021-10-23T22:55:43.677] [ERROR] error - {
+  error: { code: '10004', msg: '用户不存在', result: '' },
+  requestBody: { username: 'admin', password: 'Aa123456' },
+  request: {
+    method: 'POST',
+    url: '/user/login',
+    header: {
+      authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImlzX2FkbWluIjpmYWxzZSwiaWF0IjoxNjM1MDAwOTIyLCJleHAiOjE2MzUwODczMjJ9.PgQ1G7lqCsFY6aEMVn8NmBsf-M4EC5sPvkaTGpU5xa0',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '4326f80c-7b9d-4a86-9ff7-78729ad3d961',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '58'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10004', msg: '用户不存在', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/login'
+}
+[2021-10-23T22:55:46.656] [ERROR] error - {
+  error: { code: '10006', msg: '密码不匹配', result: '' },
+  requestBody: { username: 'admin1', password: 'Aa123456' },
+  request: {
+    method: 'POST',
+    url: '/user/login',
+    header: {
+      authorization: 'Bearer null',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': 'c218c9d9-c0a3-4ada-b2e4-a6470f3ba002',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '59'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10006', msg: '密码不匹配', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/login'
+}
+[2021-10-23T22:56:02.056] [ERROR] error - {
+  error: { code: '10004', msg: '用户不存在', result: '' },
+  requestBody: { username: 'admin1', password: 'aa123456' },
+  request: {
+    method: 'POST',
+    url: '/user/login',
+    header: {
+      authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbjEiLCJpc19hZG1pbiI6ZmFsc2UsImlhdCI6MTYzNTAwMDk0OSwiZXhwIjoxNjM1MDg3MzQ5fQ.sjAcp-PtRWFci98xip9hUY9pxvkpDV_1PI1hGxN_wx0',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': '05c92b46-282b-476b-b665-7708553ec572',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '59'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10004', msg: '用户不存在', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/login'
+}
+[2021-10-23T22:56:04.823] [ERROR] error - {
+  error: { code: '10006', msg: '密码不匹配', result: '' },
+  requestBody: { username: 'admin', password: 'aa123456' },
+  request: {
+    method: 'POST',
+    url: '/user/login',
+    header: {
+      authorization: 'Bearer null',
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.28.4',
+      accept: '*/*',
+      'cache-control': 'no-cache',
+      'postman-token': 'af912be0-3ff9-4809-bb31-dd2cd10fbf66',
+      host: '127.0.0.1:8888',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '58'
+    }
+  },
+  response: {
+    status: 500,
+    message: 'Internal Server Error',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: '10006', msg: '密码不匹配', result: '' }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/login'
+}

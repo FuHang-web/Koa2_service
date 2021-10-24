@@ -1,10 +1,10 @@
 require('dotenv').config()
 const Koa = require('koa')
-const KoaBody = require('koa-body')
+// const KoaBody = require('koa-body')
 const InitManager = require('./utils/init')
 const config = require('./config/config')
 const {
-  AccessLogger,
+  // AccessLogger,
   ErrorLogger
 } = require('./middleware/LoggerInfoMiddleware')
 const {
@@ -12,7 +12,7 @@ const {
 } = require('./app/errorHandler')
 
 const app = new Koa()
-app.use(KoaBody()).use(AccessLogger)
+// app.use(KoaBody()).use(AccessLogger)
 
 // 初始化
 InitManager.initCore(app)

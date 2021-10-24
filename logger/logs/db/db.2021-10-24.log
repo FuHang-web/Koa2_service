@@ -1,0 +1,7 @@
+[2021-10-24T15:38:55.056] [INFO] db - sql Executing (default): DROP TABLE IF EXISTS `lc_user`;
+[2021-10-24T15:38:55.087] [INFO] db - sql Executing (default): CREATE TABLE IF NOT EXISTS `lc_user` (`id` INTEGER NOT NULL auto_increment , `username` VARCHAR(255) NOT NULL UNIQUE COMMENT '用户名', `password` CHAR(64) NOT NULL COMMENT '用户密码', `is_admin` TINYINT(1) NOT NULL DEFAULT 0 COMMENT '是否为管理员（0：不是管理员(默认) ， 1：是管理员）', `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+[2021-10-24T15:38:55.136] [INFO] db - sql Executing (default): SHOW INDEX FROM `lc_user`
+[2021-10-24T15:58:30.292] [INFO] db - sql Executing (default): SELECT `id`, `username`, `password`, `is_admin` FROM `lc_user` AS `lc_user` WHERE (`lc_user`.`deleted_at` IS NULL AND `lc_user`.`username` = 'test');
+[2021-10-24T15:58:30.430] [INFO] db - sql Executing (default): INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);
+[2021-10-24T15:58:51.490] [INFO] db - sql Executing (default): SELECT `id`, `username`, `password`, `is_admin` FROM `lc_user` AS `lc_user` WHERE (`lc_user`.`deleted_at` IS NULL AND `lc_user`.`username` = 'admin');
+[2021-10-24T15:58:51.593] [INFO] db - sql Executing (default): INSERT INTO `lc_user` (`id`,`username`,`password`,`is_admin`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?);
