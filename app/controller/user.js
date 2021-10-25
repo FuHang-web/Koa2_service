@@ -7,7 +7,7 @@ const {
 const {
   userRegisterError,
   updatePasswordError,
-  captchaError
+  // captchaError
 } = require('../constant/user.type')
 
 const {
@@ -49,15 +49,15 @@ class UserController {
   async login(ctx, next) {
     const {
       username,
-      captcha
+      // captcha
     } = ctx.request.body
     // console.log(ctx.request.ip);
     // ctx.body = `欢迎回来 ${username}`
     // 1、获取用户信息（在token的playload中，记录id，username,password）
-    console.log(captcha);
-    if (captcha !== ctx.session.code) {
-      return ctx.body = captchaError()
-    }
+    // console.log(captcha);
+    // if (captcha !== ctx.session.code) {
+    //   return ctx.body = captchaError()
+    // }
     try {
       const {
         password,

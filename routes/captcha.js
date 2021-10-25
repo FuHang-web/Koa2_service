@@ -4,6 +4,10 @@ const router = new Router({
     prefix: '/captcha'
 })
 
+const {
+    captchaError
+} = require('../app/constant/user.type')
+
 router.get('/getCode', async (ctx, next) => {
     const captcha = svgCaptcha.create({
         size: 4, //验证码长度
@@ -14,17 +18,29 @@ router.get('/getCode', async (ctx, next) => {
         color: true, //验证码字符是否有颜色，默认是没有，但是如果设置了背景颜色，那么默认就是有字符颜色
         background: '#ccc' // 背景
     })
-    ctx.session.code = captcha.text
+    ctx.session.code = captcha.text.toLowerCase()
     ctx.response.type = 'image/svg+xml'
     ctx.body = captcha.data
     await next()
-    console.log(ctx.session.code);
+    // console.log(ctx.session.code);
 })
 
 router.post('/checkCode', async (ctx, next) => {
+    const {
+        captcha
+    } = ctx.request.body
+    console.log(ctx.request.body);
     const code = await ctx.session.code
-    ctx.body = code
-    console.log(code);
+    console.log(captcha, 'cap');
+    console.log(code, 'code');
+    if (captcha !== code) {
+        return ctx.body = captchaError()
+    }
+    ctx.body = {
+        code: 200,
+        result: true,
+        msg: "验证通过"
+    }
     await next()
 })
 
