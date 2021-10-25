@@ -6,7 +6,8 @@ const {
 } = require('../service/user')
 const {
   userRegisterError,
-  updatePasswordError
+  updatePasswordError,
+  captchaError
 } = require('../constant/user.type')
 
 const {
@@ -15,7 +16,7 @@ const {
 class UserController {
   // 注册
   async register(ctx, next) {
-
+    // console.log(ctx.request.body);
     // 1. 获取数据
     const {
       username,
@@ -47,11 +48,16 @@ class UserController {
   // 登录
   async login(ctx, next) {
     const {
-      username
+      username,
+      captcha
     } = ctx.request.body
     // console.log(ctx.request.ip);
     // ctx.body = `欢迎回来 ${username}`
     // 1、获取用户信息（在token的playload中，记录id，username,password）
+    console.log(captcha);
+    if (captcha !== ctx.session.code) {
+      return ctx.body = captchaError()
+    }
     try {
       const {
         password,
@@ -59,17 +65,17 @@ class UserController {
       } = await getUserInfo({
         username
       })
+      // console.log(res);
       ctx.state.user = res
       // console.log(ctx.state.user);
       ctx.body = {
         code: 0,
         msg: '用户登录成功',
-        result: {
+        token: jwt.sign(res, JWT_SECRET, {
           // 1000 毫秒 1秒
-          token: jwt.sign(res, JWT_SECRET, {
-            expiresIn: '1d'
-          })
-        }
+          expiresIn: '1d'
+        }),
+        result: res
       }
     } catch (error) {
       console.log('登录失败');

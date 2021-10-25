@@ -48,6 +48,13 @@ module.exports = {
       result: ''
     }
   },
+  captchaError() {
+    return {
+      code: '10008',
+      msg: '验证码不符合',
+      result: ''
+    }
+  },
   tokenExpiredError() {
     return {
       code: '10101',
@@ -59,6 +66,14 @@ module.exports = {
     return {
       code: '10102',
       msg: '无效的token',
+      result: ''
+    }
+  },
+  // 菜单
+  addMenuError() {
+    return {
+      code: '10201',
+      msg: '新增菜单失败',
       result: ''
     }
   },

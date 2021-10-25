@@ -1,6 +1,7 @@
 const User = require('../models/user')
 class UserService {
   async createUser(username, password) {
+    // console.log(username, password);
     // 插入数据
     // console.log(aaa);
     const res = await User.create({
@@ -16,7 +17,7 @@ class UserService {
     id,
     username,
     password,
-    is_admin
+    phone
   }) {
     const whereOpt = {}
     id && Object.assign(whereOpt, {
@@ -28,11 +29,11 @@ class UserService {
     password && Object.assign(whereOpt, {
       password
     })
-    is_admin && Object.assign(whereOpt, {
-      is_admin
+    phone && Object.assign(whereOpt, {
+      phone
     })
     const res = await User.findOne({
-      attributes: ['id', 'username', 'password', 'is_admin'],
+      // attributes: ['id', 'username', 'password', 'phone'],
       where: whereOpt
     })
     if (res) {

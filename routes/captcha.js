@@ -10,14 +10,22 @@ router.get('/getCode', async (ctx, next) => {
         fontSize: 45, //验证码字号
         noise: 1, //干扰线条数目
         width: 120, //宽度
-        height: 36, //高度
+        height: 40, //高度
         color: true, //验证码字符是否有颜色，默认是没有，但是如果设置了背景颜色，那么默认就是有字符颜色
         background: '#ccc' // 背景
     })
     ctx.session.code = captcha.text
     ctx.response.type = 'image/svg+xml'
     ctx.body = captcha.data
+    await next()
     console.log(ctx.session.code);
+})
+
+router.post('/checkCode', async (ctx, next) => {
+    const code = await ctx.session.code
+    ctx.body = code
+    console.log(code);
+    await next()
 })
 
 module.exports = router

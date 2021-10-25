@@ -1,12 +1,22 @@
 const jwt = require('jsonwebtoken')
-const { tokenExpiredError, invalidTokenError } = require('../app/constant/user.type')
-const { JWT_SECRET } = require('../config/config').app
+const {
+  tokenExpiredError,
+  invalidTokenError
+} = require('../app/constant/user.type')
+const {
+  JWT_SECRET
+} = require('../config/config').app
 
 const auth = async (ctx, next) => {
-  const { authorization } = ctx.request.header
-  // console.log(authorization);
+  const {
+    authorization
+  } = ctx.request.header
+  console.log(authorization, 'null');
+  if (!authorization) {
+    return ctx.body = invalidTokenError()
+  }
   const token = authorization.replace('Bearer ', '')
-  // console.log(token);
+  console.log(token);
 
   try {
     // user中包含了payload的信息
@@ -14,7 +24,7 @@ const auth = async (ctx, next) => {
     ctx.state.user = user
     // console.log(ctx.state.user);
   } catch (error) {
-    console.log(error.name,'error');
+    console.log(error.name, 'error');
     switch (error.name) {
       case 'TokenExpiredError':
         console.log('token过期');

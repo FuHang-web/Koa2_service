@@ -20,6 +20,6 @@ const router = new Router({
 router.post('/register', userValidate, verifyUser, cryptPassword, register)
 router.post('/login', verifyLogin, login)
 // 修改密码
-router.patch('/', userValidate, auth, cryptPassword, changePassword)
+router.patch('/', userValidate, auth, verifyUser, cryptPassword, changePassword)
 
 module.exports = router

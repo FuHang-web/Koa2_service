@@ -9,9 +9,9 @@ class InitManager {
   static initCore(app) {
     //入口方法
     InitManager.app = app
+    InitManager.initUses()
     InitManager.initLoadRouters()
     InitManager.initSessions()
-    InitManager.initUses()
   }
 
   static initLoadRouters() {

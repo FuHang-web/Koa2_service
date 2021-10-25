@@ -14,7 +14,7 @@ const {
 
 //验证用户信息
 const userValidate = async (ctx, next) => {
-  // console.log(ctx.request.body);
+  console.log(ctx.request.body);
   //定义对象的验证规则
   const schema = Joi.object({
     username: Joi.string(),
@@ -22,7 +22,7 @@ const userValidate = async (ctx, next) => {
     password: Joi.string().regex(/(?=.*[0-9])(?=.*[a-zA-Z]).{8,30}$/).required().error(new Error('密码必须包含字母、数字，且密码位数在8-32位之间')),
   }).unknown();
   const result = schema.validate(ctx.request.body);
-  console.log(result);
+  // console.log(result);
   if (result.error) {
     ctx.app.emit('error', userFormateError(result.error.message), ctx)
     return result.error
@@ -61,7 +61,7 @@ const cryptPassword = async (ctx, next) => {
   // hash 保存的是密文
   const hash = bcrypt.hashSync(password, salt);
   ctx.request.body.password = hash
-
+  console.log(hash);
   await next()
 }
 
