@@ -2,7 +2,8 @@ const Router = require('koa-router')
 const {
   register,
   login,
-  changePassword
+  changePassword,
+  getUserInfoData
 } = require('../app/controller/user')
 const { auth } = require('../middleware/auth.middleware')
 const {
@@ -19,6 +20,9 @@ const router = new Router({
 
 router.post('/register', userValidate, verifyUser, cryptPassword, register)
 router.post('/login', verifyLogin, login)
+
+// 获取用户数据
+router.post('/getUserInfo', auth, getUserInfoData)
 // 修改密码
 router.patch('/', userValidate, auth, verifyUser, cryptPassword, changePassword)
 

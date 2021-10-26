@@ -22,7 +22,7 @@ const auth = async (ctx, next) => {
     // user中包含了payload的信息
     const user = jwt.verify(token, JWT_SECRET)
     ctx.state.user = user
-    // console.log(ctx.state.user);
+    console.log(ctx.state.user, '25');
   } catch (error) {
     console.log(error.name, 'error');
     switch (error.name) {

@@ -29,9 +29,9 @@ class MenuController {
       res.forEach(e => {
         list.push(e.dataValues)
       });
-      const newList = await convertToTreeData(list, 1)
+      const newList = convertToTreeData(list, 1)
       // console.log(newList);
-      console.log(ctx.state.user);
+      // console.log(ctx.state.user);
       ctx.body = newList
     } catch (error) {
       console.log(error);

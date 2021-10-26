@@ -17,7 +17,7 @@ const userValidate = async (ctx, next) => {
   console.log(ctx.request.body);
   //定义对象的验证规则
   const schema = Joi.object({
-    username: Joi.string(),
+    username: Joi.string().required().error(new Error('用户名为空')),
     // username: Joi.string().min(3).required().error(new Error('用户名不符合验证规则')),
     password: Joi.string().regex(/(?=.*[0-9])(?=.*[a-zA-Z]).{8,30}$/).required().error(new Error('密码必须包含字母、数字，且密码位数在8-32位之间')),
   }).unknown();
@@ -71,7 +71,6 @@ const verifyLogin = async (ctx, next) => {
     username,
     password
   } = ctx.request.body
-
   try {
     const res = await getUserInfo({
       username
@@ -87,8 +86,6 @@ const verifyLogin = async (ctx, next) => {
   } catch (error) {
     return ctx.app.emit('error', userLoginError(), ctx)
   }
-
-
   // 2、用户密码是否匹配（不匹配：报错）
 
   await next()

@@ -38,8 +38,8 @@ router.post('/checkCode', async (ctx, next) => {
     }
     ctx.body = {
         code: 200,
-        result: true,
-        msg: "验证通过"
+        data: true,
+        message: "验证通过"
     }
     await next()
 })

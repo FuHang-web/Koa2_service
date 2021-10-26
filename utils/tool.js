@@ -1,4 +1,4 @@
-function convertToTreeData(data, pid) {
+const convertToTreeData = (data, pid) => {
   const result = []
   let temp = []
   for (let i = 0; i < data.length; i++) {

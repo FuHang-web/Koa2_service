@@ -2,7 +2,8 @@ const jwt = require('jsonwebtoken')
 const {
   createUser,
   getUserInfo,
-  updateById
+  updateById,
+  getUserInfoById
 } = require('../service/user')
 const {
   userRegisterError,
@@ -32,8 +33,8 @@ class UserController {
       // 3. 返回结果
       ctx.body = {
         code: 0,
-        msg: '注册成功',
-        result: {
+        message: '注册成功',
+        data: {
           id: res.id,
           username: res.username,
           password: res.password
@@ -66,19 +67,39 @@ class UserController {
         username
       })
       // console.log(res);
-      ctx.state.user = res
+      // ctx.state.user = res
       // console.log(ctx.state.user);
       ctx.body = {
-        code: 0,
-        msg: '用户登录成功',
-        token: jwt.sign(res, JWT_SECRET, {
-          // 1000 毫秒 1秒
-          expiresIn: '1d'
-        }),
-        result: res
+        code: 200,
+        message: '用户登录成功',
+        data: Object.assign(res, {
+          token: jwt.sign(res, JWT_SECRET, {
+            // 1000 毫秒 1秒
+            expiresIn: '1d'
+          }),
+        })
       }
     } catch (error) {
       console.log('登录失败');
+    }
+  }
+
+  async getUserInfoData(ctx, next) {
+    try {
+      const {
+        id
+      } = ctx.request.body
+      const res = await getUserInfoById({
+        id
+      })
+      // ctx.state.user = res
+      ctx.body = {
+        code: 200,
+        message: '成功',
+        data: res
+      }
+    } catch (error) {
+      console.log('null');
     }
   }
 
@@ -109,8 +130,8 @@ class UserController {
       })
       ctx.body = {
         code: 0,
-        msg: '修改成功',
-        result: {
+        message: '修改成功',
+        data: {
           username: ctx.request.body.username
         }
       }

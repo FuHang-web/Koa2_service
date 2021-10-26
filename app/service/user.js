@@ -43,13 +43,45 @@ class UserService {
     }
   }
 
-  async updateById({id, username, password, id_admin}) {
-    const whereOpt = {id}
+  async getUserInfoById({
+    id
+  }) {
+    const whereOpt = {}
+    id && Object.assign(whereOpt, {
+      id
+    })
+    const res = await User.findOne({
+      where: whereOpt
+    })
+    if (res) {
+      return res.dataValues
+    } else {
+      return null
+    }
+  }
+
+  async updateById({
+    id,
+    username,
+    password,
+    id_admin
+  }) {
+    const whereOpt = {
+      id
+    }
     const newUser = {}
-    username && Object.assign(newUser, {username})
-    password && Object.assign(newUser, {password})
-    id_admin && Object.assign(newUser, {id_admin})
-    const res = await User.update(newUser, {where: whereOpt})
+    username && Object.assign(newUser, {
+      username
+    })
+    password && Object.assign(newUser, {
+      password
+    })
+    id_admin && Object.assign(newUser, {
+      id_admin
+    })
+    const res = await User.update(newUser, {
+      where: whereOpt
+    })
     console.log(res);
     return res[0] > 0 ? true : false
   }
