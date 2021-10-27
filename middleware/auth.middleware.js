@@ -11,18 +11,19 @@ const auth = async (ctx, next) => {
   const {
     authorization
   } = ctx.request.header
-  console.log(authorization, 'null');
+  // console.log(authorization, 'null');
   if (!authorization) {
     return ctx.body = invalidTokenError()
   }
   const token = authorization.replace('Bearer ', '')
-  console.log(token);
+  // console.log(token);
 
   try {
     // user中包含了payload的信息
     const user = jwt.verify(token, JWT_SECRET)
+    // console.log(user);
     ctx.state.user = user
-    console.log(ctx.state.user, '25');
+    // console.log(ctx.state.user, '25');
   } catch (error) {
     console.log(error.name, 'error');
     switch (error.name) {

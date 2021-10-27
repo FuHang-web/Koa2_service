@@ -92,6 +92,7 @@ class UserController {
       const res = await getUserInfoById({
         id
       })
+      // console.log(res,'95555555555555555');
       // ctx.state.user = res
       ctx.body = {
         code: 200,

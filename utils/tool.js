@@ -1,3 +1,8 @@
+const {
+  customAlphabet
+} = require('nanoid')
+const nanoid = customAlphabet('1234567890abcdef', 18)
+
 const convertToTreeData = (data, pid) => {
   const result = []
   let temp = []
@@ -18,6 +23,34 @@ const convertToTreeData = (data, pid) => {
   return result
 }
 
+const currentTime = () => {
+  let dateTime = new Date()
+  let year = dateTime.getFullYear()
+  let month = dateTime.getMonth() + 1
+  let day = dateTime.getDate()
+  let hours = dateTime.getHours()
+  let minute = dateTime.getMinutes()
+  let second = dateTime.getSeconds()
+  month = month < 10 ? `0${month}` : month
+  day = day < 10 ? `0${day}` : day
+  hours = hours < 10 ? `0${hours}` : hours
+  minute = minute < 10 ? `0${minute}` : minute
+  second = second < 10 ? `0${second}` : second
+  let date = `${year}-${month}-${day}`
+  let time = `${hours}:${minute}:${second}`
+  return {
+    date: date,
+    time: time,
+    dateTime: `${date} ${time}`
+  }
+}
+
+const getNanoId = async () => {
+  return nanoid()
+}
+
 module.exports = {
-  convertToTreeData
+  convertToTreeData,
+  currentTime,
+  getNanoId
 }
