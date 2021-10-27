@@ -2,6 +2,10 @@ const {
   customAlphabet
 } = require('nanoid')
 const nanoid = customAlphabet('1234567890abcdef', 18)
+// const OSS = require('ali-oss');
+const {
+  getOssConfigure
+} = require('../app/service/configure')
 
 const convertToTreeData = (data, pid) => {
   const result = []
@@ -49,8 +53,27 @@ const getNanoId = async () => {
   return nanoid()
 }
 
+const oss = () => {
+  return new Promise(async (resolve, reject) => {
+    let ossInit = {}
+    const {
+      dataValues: res
+    } = await getOssConfigure()
+    // console.log(res);
+    ossInit.region = res.region
+    ossInit.accessKeyId = res.access_key_id
+    ossInit.accessKeySecret = res.access_key_secret
+    ossInit.bucket = res.bucket
+    console.log(ossInit,'1111111111111111111111');
+    resolve(ossInit)
+  })
+  // // console.log(ossInit);
+  // return ossInit
+}
+
 module.exports = {
   convertToTreeData,
   currentTime,
-  getNanoId
+  getNanoId,
+  oss
 }

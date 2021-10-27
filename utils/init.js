@@ -5,7 +5,7 @@ const KoaBody = require('koa-body')
 const {
   AccessLogger,
 } = require('../middleware/LoggerInfoMiddleware')
-const OSS = require('ali-oss')
+// const OSS = require('ali-oss')
 class InitManager {
   static async initCore(app) {
     //入口方法
