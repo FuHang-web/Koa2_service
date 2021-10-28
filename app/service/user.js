@@ -1,4 +1,5 @@
 const User = require('../models/user')
+const Op = require('sequelize').Op
 class UserService {
   async createUser(username, password) {
     // console.log(username, password);
@@ -10,6 +11,28 @@ class UserService {
       password: password
     })
     // console.log(res);
+    return res
+  }
+
+  async getUserPage(params) {
+    console.log(params);
+    const page = Number(params.current) || 1,
+      page_size = Number(params.size) || 10,
+      whereOpt = {
+        username: {
+          [Op.like]: '%' + username + '%'
+        }
+      }
+      console.log(whereOpt);
+    const res = await User.findAndCountAll({
+      where: whereOpt,
+      order: [
+        ['created_at', 'DESC']
+      ], //倒序
+      //分页
+      limit: page_size,
+      offset: page_size * (page - 1),
+    });
     return res
   }
 

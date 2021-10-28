@@ -9,7 +9,9 @@ const {
 const {
   auth
 } = require('../middleware/auth.middleware')
-const { addFiles } = require('../app/controller/file.controller')
+const {
+  addFiles
+} = require('../app/controller/file.controller')
 
 router.post('/fileUpload', auth, putStream, addFiles)
 

@@ -22,6 +22,30 @@ class MenuService {
     // console.log(res.length);
     return res
   }
+
+  async getMenuPage(params) {
+    const page = Number(params.current) || 1,
+      page_size = Number(params.size) || 10
+    const res = await Menu.findAndCountAll({
+      // include: [{
+      //   model: this.ctx.model.User.scope([{
+      //       method: ['hasName', name]
+      //     },
+      //     {
+      //       method: ['hasEnterprise', enterprise]
+      //     },
+      //   ]),
+      //   required: true,
+      // }],
+      order: [
+        ['created_at', 'DESC']
+      ], //倒序
+      //分页
+      limit: page_size,
+      offset: page_size * (page - 1),
+    });
+    return res
+  }
 }
 
 module.exports = new MenuService()

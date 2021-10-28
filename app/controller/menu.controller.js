@@ -1,6 +1,7 @@
 const {
   createMenu,
-  getMenuList
+  getMenuList,
+  getMenuPage
 } = require('../service/menu.service')
 const {
   addMenuError,
@@ -35,6 +36,17 @@ class MenuController {
       ctx.body = newList
     } catch (error) {
       console.log(error);
+    }
+  }
+
+  async getMenuDataPage(ctx, next) {
+    try {
+      const query = JSON.parse(JSON.stringify(ctx.request.query))
+      const res = await getMenuPage(query)
+      console.log(res,'46');
+      ctx.body = res
+    } catch (error) {
+      
     }
   }
 }

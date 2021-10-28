@@ -3,9 +3,12 @@ const {
   register,
   login,
   changePassword,
-  getUserInfoData
+  getUserInfoData,
+  getUserInfoPage
 } = require('../app/controller/user')
-const { auth } = require('../middleware/auth.middleware')
+const {
+  auth
+} = require('../middleware/auth.middleware')
 const {
   userValidate,
   verifyUser,
@@ -23,6 +26,7 @@ router.post('/login', verifyLogin, login)
 
 // 获取用户数据
 router.post('/getUserInfo', auth, getUserInfoData)
+router.get('/getPage', auth, getUserInfoPage)
 // 修改密码
 router.patch('/', userValidate, auth, verifyUser, cryptPassword, changePassword)
 

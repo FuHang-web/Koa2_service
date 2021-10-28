@@ -3,7 +3,8 @@ const {
   createUser,
   getUserInfo,
   updateById,
-  getUserInfoById
+  getUserInfoById,
+  getUserPage
 } = require('../service/user')
 const {
   userRegisterError,
@@ -101,6 +102,20 @@ class UserController {
       }
     } catch (error) {
       console.log('null');
+    }
+  }
+
+  async getUserInfoPage(ctx, next) {
+    try {
+      const query = JSON.parse(JSON.stringify(ctx.request.query))
+      const res = await getUserPage(query)
+      ctx.body = {
+        code: 200,
+        message: 'success',
+        data: res
+      }
+    } catch (error) {
+      
     }
   }
 

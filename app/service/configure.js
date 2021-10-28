@@ -6,7 +6,7 @@ class ConfigureService {
     async getOssConfigure() {
         // console.log(OSS);
         const res = await OSS.findOne()
-        console.log(res);
+        // console.log(res);
         return res
     }
 }
