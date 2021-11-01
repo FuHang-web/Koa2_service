@@ -16,14 +16,16 @@ class UserService {
 
   async getUserPage(params) {
     console.log(params);
+    const {
+      username
+    } = params
     const page = Number(params.current) || 1,
       page_size = Number(params.size) || 10,
-      whereOpt = {
-        username: {
-          [Op.like]: '%' + username + '%'
-        }
-      }
-      console.log(whereOpt);
+      whereOpt = {};
+    username && Object.assign(whereOpt, {
+      username
+    })
+    console.log(whereOpt);
     const res = await User.findAndCountAll({
       where: whereOpt,
       order: [

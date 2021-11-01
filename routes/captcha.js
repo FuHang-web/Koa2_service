@@ -33,6 +33,13 @@ router.post('/checkCode', async (ctx, next) => {
     const code = await ctx.session.code
     console.log(captcha, 'cap');
     console.log(code, 'code');
+    if (!(captcha || code)) {
+        return ctx.body = {
+            code: '10010',
+            data: false,
+            message: "请填写验证码"
+        }
+    }
     if (captcha !== code) {
         return ctx.body = captchaError()
     }

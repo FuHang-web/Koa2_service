@@ -43,10 +43,14 @@ class MenuController {
     try {
       const query = JSON.parse(JSON.stringify(ctx.request.query))
       const res = await getMenuPage(query)
-      console.log(res,'46');
-      ctx.body = res
+      console.log(res, '46');
+      ctx.body = {
+        code: 200,
+        message: 'success',
+        data: res
+      }
     } catch (error) {
-      
+
     }
   }
 }
